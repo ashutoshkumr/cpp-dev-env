@@ -8,11 +8,13 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
     autoconf        \
     build-essential \
+    ca-certificates \
     cppcheck        \
     curl            \
     git             \
     iproute2        \
     libtool         \
+    openssl         \
     pkg-config      \
     valgrind        \
     vim             \
