@@ -1,0 +1,7 @@
+{
+    "editor.rulers": [
+        80,
+        90
+    ],
+    "terminal.integrated.shell.linux": "/bin/bash"
+}
